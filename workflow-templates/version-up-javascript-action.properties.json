@@ -1,0 +1,7 @@
+{
+    "name": "Version up Workflow for JavaScript action",
+    "description": "Version up Workflow for JavaScript action.",
+    "filePatterns": [
+        "^action.yml$"
+    ]
+}

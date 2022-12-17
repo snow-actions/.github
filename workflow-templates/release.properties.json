@@ -1,0 +1,7 @@
+{
+    "name": "Release Workflow",
+    "description": "Release Workflow.",
+    "filePatterns": [
+        "^action.yml$"
+    ]
+}

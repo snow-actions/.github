@@ -6,12 +6,12 @@ on:
 
 jobs:
   tweet:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
       - name: Tweet
-        uses: snow-actions/tweet@v1.2.0
+        uses: snow-actions/tweet@v1.3.0
         with:
           status: |
             Release ${{ github.event.release.name }} · ${{ github.repository }}
